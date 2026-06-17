@@ -77,7 +77,7 @@ export default {
                 embeds: [
                     successEmbed(
                         "Ticket Closed!",
-                        "This ticket has been closed successfully.",
+                        "ticket has been closed.",
                     ),
                 ],
             });
