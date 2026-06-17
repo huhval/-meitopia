@@ -66,8 +66,8 @@ export default {
             await InteractionHelper.safeEditReply(interaction, {
                 embeds: [
                     successEmbed(
-                        "Ticket Claimed!",
-                        "You have successfully claimed this ticket.",
+                        "tckt claimed !!",
+                        "ty for claiming the tckt! xo.",
                     ),
                 ],
             });
