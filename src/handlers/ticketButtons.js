@@ -486,8 +486,8 @@ const pinTicketHandler = {
         await interaction.editReply({
           embeds: [createEmbed({
             title: '📌 Ticket Unpinned',
-            description: 'This ticket has been unpinned and moved back to normal position.',
-            color: 0x95A5A6
+            description: 'this ticket has been unpinned.',
+            color: #38040E
           })],
           flags: MessageFlags.Ephemeral
         });
