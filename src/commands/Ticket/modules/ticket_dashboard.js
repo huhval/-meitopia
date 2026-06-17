@@ -161,7 +161,7 @@ async function updateLivePanel(client, guild, config) {
         const button = new ActionRowBuilder().addComponents(
             new ButtonBuilder()
                 .setCustomId('create_ticket')
-                .setLabel(config.ticketButtonLabel || 'Create Ticket')
+                .setLabel(config.ticketButtonLabel || 'tickets !')
                 .setStyle(ButtonStyle.Primary)
                 .setEmoji('☘️'),
         );
