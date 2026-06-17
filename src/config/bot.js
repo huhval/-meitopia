@@ -59,7 +59,7 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
+      { question: "What is your timezone?", required: true },
       { question: "How old are you?", required: true },
       { question: "Why do you want to join?", required: true },
     ],
@@ -119,13 +119,13 @@ export const botConfig = {
         ended: "#ED4245",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
+        open: "#38040E",
+        claimed: "#38040E",
         closed: "#ED4245",
-        pending: "#99AAB5",
+        pending: "#38040E",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
+      economy: "#38040E",
+      birthday: "#38040E",
       moderation: "#9B59B6",
 
       // Ticket priority color mapping.
@@ -139,7 +139,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "xoxo",
       // Footer icon URL (null = no icon).
       icon: null,
     },
